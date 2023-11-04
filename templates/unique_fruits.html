@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSCI ECU</title>
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+</head>
+
+
+<body>
+    
+    <table>
+      <!-- tr represents a row -->
+      <tr>
+        {% for col_name in basket_a %}
+            <th>{{col_name}}</th>
+        {% endfor %}
+      <tr>
+        {% for col_name in basket_b%}
+            <th>{{col_name}}</th>
+        {% endfor %}
+ 
+    </table> 
+
+
+</body>
+</html>
